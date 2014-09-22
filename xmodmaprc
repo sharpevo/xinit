@@ -1,0 +1,15 @@
+!
+! left ctrl right alt
+!
+!remove Lock = Caps_Lock
+remove Control = Control_R
+remove mod1 = Alt_L
+keysym Control_R = Alt_L
+keysym Alt_L = Control_R
+add mod1 = Alt_L
+add Control = Control_R
+
+! configure tablet keys
+keycode 120 = XF86LaunchA
+keycode 121 = XF86LaunchB
+
