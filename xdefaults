@@ -1,0 +1,179 @@
+
+Xft.dpi:96
+
+
+! xpdf
+
+xpdf*Foreground:#000000
+xpdf*Background:#e6e6e6
+xpdf*paperColor:#e6e6e6
+!xpdf*matteColor:#b8bba4
+!xpdf*fullScreenMatteColor:#b8bba4
+!xpdf*fontList:tamsyn-6
+
+
+*termName:xterm-256color
+!xterm.iconName:ryan-xterm
+*utf8:1
+*faceName:Tamsyn-6
+!*faceName:MonteCarlo-6
+!XTerm*faceName:Tamsyn:size=8
+XTerm*fastScroll:True
+*faceNameDoublesize:WenQuanYi Bitmap Song-6
+*cursorBlink:true
+*colorUL:#c4a000
+*colorULMode:true
+*colorBD:#3465a4
+*colorBDMode:true
+*cursorUnderLine:true
+*eightBitInput:false
+*selectToClipboard:true
+!xterm*altSendsEscape:true
+*metaSendsEscape:true
+*charClass: 33:48,36-47:48,58-59:48,61:48,63-64:48,95:48,126:48
+!xterm*charClass: 33:48,35:48,37:48,43:48,45-47:48,61:48,63:48,64:48,95:48,126:48,35:48,58:48
+
+
+
+!
+! Solarized theme
+!
+#define S_base03        #002b36
+#define S_base02        #073642
+#define S_base01        #586e75
+#define S_base00        #657b83
+#define S_base0         #839496
+#define S_base1         #93a1a1
+#define S_base2         #eee8d5
+#define S_base3         #fdf6e3
+#define S_yellow        #b58900
+#define S_orange        #cb4b16
+#define S_red           #dc322f
+#define S_magenta       #d33682
+#define S_violet        #6c71c4
+#define S_blue          #268bd2
+#define S_cyan          #2aa198
+#define S_green         #859900
+
+*background:            S_base03
+*foreground:            S_base00
+!*fading:                40
+!*fadeColor:             S_base03
+*cursorColor:           S_base1
+*pointerColorBackground:S_base01
+*pointerColorForeground:S_base1
+
+!! black dark/light
+*color0:                S_base02
+*color8:                S_base03
+
+!! red dark/light
+*color1:                S_red
+*color9:                S_orange
+
+!! green dark/light
+*color2:                S_green
+*color10:               S_base01
+
+!! yellow dark/light
+*color3:                S_yellow
+*color11:               S_base00
+
+!! blue dark/light
+*color4:                S_blue
+*color12:               S_base0
+
+!! magenta dark/light
+*color5:                S_magenta
+*color13:               S_violet
+
+!! cyan dark/light
+*color6:                S_cyan
+*color14:               S_base1
+
+!! white dark/light
+*color7:                S_base2
+*color15:               S_base3
+
+!
+!-- Tango color scheme
+!
+!*background:#101010
+!*foreground:#888a85
+!!Black
+!*color0: #2e3436
+!*color8: #555753
+
+!!Red
+!*color1: #a40000
+!*color9: #cc0000
+
+!!Green
+!*color2: #4e9a06
+!*color10: #73d216
+
+!!Yellow
+!*color3: #8f5902
+!*color11: #e9b96e
+
+!!Blue
+!*color4: #204a87
+!*color12: #729fcf
+
+!!Magenta
+!*color5: #5c3566
+!*color13: #75507b
+
+!!Cyan
+!*color6: #0b939b
+!*color14: #24b3bb
+
+!!White
+!*color7: #d3d7cf
+!*color15: #eeeeec
+
+! xrdb -merge ~/.Xdefaults
+
+!
+! colours for hybrid.vim (copied from Tomorrow-Night)
+!
+
+!#define t_background #1d1f21
+!#define t_current_line #282a2e
+!#define t_selection #373b41
+!#define t_foreground #c5c8c6
+!#define t_comment #969896
+!#define t_red #cc6666
+!#define t_orange #de935f
+!#define t_yellow #f0c674
+!#define t_green #b5bd68
+!#define t_aqua #8abeb7
+!#define t_blue #81a2be
+!#define t_purple #b294bb
+!! terminal colours
+!*background: t_background
+!*foreground: t_comment
+!! black
+!*color0: t_current_line
+!*color8: t_selection
+!! red
+!*color1: #A54242
+!*color9: t_red
+!! green
+!*color2: #8C9440
+!*color10: t_green
+!! yellow
+!*color3: t_orange
+!*color11: t_yellow
+!! blue
+!*color4: #5F819D
+!*color12: t_blue
+!! magenta
+!*color5: #85678F
+!*color13: t_purple
+!! cyan
+!*color6: #5E8D87
+!*color14: t_aqua
+!! white
+!*color7: t_comment
+!*color15: t_foreground
