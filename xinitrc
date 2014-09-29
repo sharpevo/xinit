@@ -41,5 +41,6 @@ fi
 
 xsetroot -cursor_name left_ptr
 xcompmgr -cCf -t-19 -l-29 -r8 -o.65 -D1 &
-feh --bg-scale /etc/X11/xinit/xmonad/worldmap.jpg &
-exec xmonad
+
+# Start xmonad
+sh /etc/X11/xinit/xmonad/exec_xmonad.sh
