@@ -4,6 +4,8 @@ systemd --user &
 
 export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on' # Java apps font.
 export wiki_browser=firefox
+export GOPATH=~/go
+export PATH="$PATH:$GOPATH/bin"
 xset m 5 1 &
 xset -b &
 
