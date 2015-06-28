@@ -1,16 +1,13 @@
 #!/bin/sh
 
-
 systemd --user &
-
-# Configuration
 
 export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on' # Java apps font.
 export wiki_browser=firefox
+export GOPATH=~/go
+export PATH="$PATH:$GOPATH/bin"
 xset m 5 1 &
 xset -b &
-
-
 
 # input method
 fcitx &
@@ -36,9 +33,7 @@ if [ -n "$dbuslaunch" ] && [ -x "$dbuslaunch" ] && [ -z "$DBUS_SESSION_BUS_ADDRE
   eval `$dbuslaunch --sh-syntax --exit-with-session`
 fi
 
-
 # Start xmonad
-
 xsetroot -cursor_name left_ptr
 xcompmgr -cCf -t-19 -l-29 -r8 -o.65 -D1 &
 
